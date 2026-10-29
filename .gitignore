@@ -29,7 +29,6 @@ build/
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
 
 # Claude Code local state
@@ -38,8 +37,6 @@ Thumbs.db
 .claude/settings.local.json
 
 # Environment
-.env
-.env.local
 
 # Cloudflare
 .wrangler/
@@ -141,3 +138,4 @@ tmp/
 # PNGs, the old card backup). The canonical generator is `bun run og-image`
 # (scripts/generate-og-image.js); this dir is throwaway and safe to delete.
 .og-build/
+config.bat
